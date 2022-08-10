@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* Header */
+.head {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.head #apple {
+    margin-top: 11px;
+    width: 18px;
+    height: 18px;
+}
+
+.head #lupa {
+    margin-top: 11px;
+    margin-left: 40px;
+    width: 18px;
+    height: 18px;
+}
+
+.head #sacola {
+    margin-left: 40px;
+    margin-top: 11px;
+    width: 18px;
+    height: 18px;
+}
+
+.head ul {
+    color: rgb(199, 199, 199);
+    list-style: none;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.head li {
+    margin-top: 11px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+/* Hover Head */
+
+#apple:hover {
+    cursor: pointer;
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#lupa:hover {
+    cursor: pointer;
+}
+
+#sacola:hover {
+    cursor: pointer;
+}
+
+/* Underhead */
+
+.underhead {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #1d1d1f;
+}
+
+/* .underhead {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    background-color: #1d1d1fa9;
+    backdrop-filter: blur(5px);
+} */
+
+.underhead h4 {
+    color: rgb(218, 218, 218);
+    font-size:27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    margin-top: 14px;
+    margin-left: 20em;
+}
+
+.underhead ul {
+    color: #c9c9c9;
+    list-style: none;
+    display: flex;
+    margin-left: 25em;
+    margin-top: 25px;
+}
+
+.underhead li {
+    margin-left: 20px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.underhead #comprar {
+    color: white;
+    background-color: #0071e3;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 75px;
+    height: 26px;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Underher hover */
+.lineshow {
+    width: 100%;
+    height: 1px;
+    background-color: #e4e4e43a;
+}
+
+.underhead h4 {
+    cursor: pointer;
+}
+
+.underhead #comprar:hover {
+    background-color: #0981fa;
+    cursor: pointer;
+}
+
+/* Article */
+
+.infomation {
+    width: 100%;
+}
+
+.apresentacao h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 2.5em;
+}
+
+.apresentacao #iphone {
+    width: 90em;
+    height: 50em;
+    margin-left: 20em;
+}
+
+.apresentacao h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#iphonehorizontal {
+    width: 1200px;
+    margin-left: 20em;
+}
+
+.configuracoes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+
+.camera {
+    width: 400px;
+    height: 600px;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+.especificacao {
+    width: 400px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.novidades {
+    width: 400px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.configuracoes h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.configuracoes p {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.more_information #cameras {
+    width: 50em;
+    margin-left: 35em;
+}
